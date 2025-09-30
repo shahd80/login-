@@ -1,0 +1,34 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#nav {
+  background-color: #24353f;
+}
+
+#nav .navbar-brand,
+#nav .nav-link {
+  color: #fff !important;
+  font-size: 1.27rem;
+  font-weight: 400;
+}
+
+.welcome-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  color: #17a2b8;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.shadow-box {
+  border-radius: 2px;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

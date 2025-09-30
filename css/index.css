@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#signin h1 {
+  color: #17a2b8;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#signin p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+#signin .CARD {
+  width: 45%;
+}
+#signin .shadow-box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#signin .input {
+  background-color: transparent;
+  color: #fff !important;
+}
+#signin .input::placeholder {
+  color: #fff;
+}

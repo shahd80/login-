@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/signup.css" />
+
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <section id="signin">
+      <div class="CARD mx-auto my-5">
+        <div class="text-center mx-auto p-5 shadow-box">
+          <h1 class="pb-4">Smart Login System</h1>
+
+          <div class="mb-4">
+            <input
+              type="email"
+              id="emailinput"
+              class="form-control input"
+              placeholder="enter your email"
+            />
+          </div>
+
+          <div class="m">
+            <input
+              type="password"
+              id="passwordinput"
+              class="form-control input"
+              placeholder="enter your password"
+            />
+          </div>
+          <div class="my-4">
+            <button
+              onclick="login()"
+              type="button"
+              class="btn btn-outline-info w-100"
+            >
+              login
+            </button>
+            <div class="d-none" id="validationMessage"></div>
+          </div>
+          <p class="text-center">
+            Don’t have an account?<a
+              href="signup.html"
+              class="text-decoration-none text-reset"
+            >
+              Sign Up</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/bootstrap.bundle.min.js" defer></script>
+
+    <script src="../js/home.js" defer></script>
+    <script src="../js/index.js" defer></script>
+    <script src="../js/signup.js" defer></script>
+  </body>
+</html>
